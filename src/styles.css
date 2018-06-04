@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+
+.global {
+  background: blue;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.global-important {
+  background: blue !important;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #555;
+}
+
+.nav li {
+  float: left;
+  font-size: 1.25rem;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.75rem 2rem;
+  text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.nav .active {
+  background-color: #4caf50;
+}
